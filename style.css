@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.setul{
+  margin: 0 auto;
+    gap: 20px !important;
+    color: #4F5665 ;    
+}
+
+.loginLink{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+    border: none;
+    text-decoration: none;
+
+}
+.btn {
+    color: #F53855;
+    border-color: #F53855;
+}
+.btn:hover{
+    background: transparent !important;
+    color: #F53855 !important;
+    border-color: #F53855 !important;
+}
+
+.vpnbtn{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px 10px 10px 10px !important;
+    background: #F53838;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    size: 16px;
+    line-height: 25px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.row{
+    
+    display: flex;
+    align-items: center;
+}
+h3{
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+h3 span{
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+
+}
+
+.padder{
+    padding: 100px 0px;
+
+}
+.para{
+    font-family: Rubik;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   
+}
+.para span {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.num{
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 36px;
+    text-align: left;
+
+}
+.num span{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+.customborder .col-4{
+    border-right: 1px solid #ccc;
+}
+.customborder .col-4:last-child{
+    border: none;
+}
+ul.customicon li {
+    list-style: none;
+}
+
+ul.customicon li::before {
+    content: url(./assets/images/Vector.png);
+    position: relative;
+    left: -7px;
+    bottom: -5px;
+}
+.textarea h1 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    
+}
+.textarea p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+.customBox {
+    border: 2px solid #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+
+}
+.customBox:hover{
+    border: 2px solid #F53838;
+}
+
+
+.customBox ul li{
+  
+    list-style-image: url(./assets/images/Vector\ \(1\).png);
+}
+.freebtn{
+    width: 150px;
+    top: 1776.55px;
+    left: 175px;
+    gap: 0px;
+    border-radius: rgba(245, 56, 56, 1);
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 20px;
+}
+.freebtn:hover{
+    background: #F53838 !important;
+    color: #fff !important;
+}
+.gapping{
+    line-height: 45px;
+}
+.lighter{
+    font-weight: 500;
+    font-family: Rubik;
+    line-height: 30px;
+    font-size: 25px;
+}
+.lighter span{
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665 ;       
+}
+
+.testimonial-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 360px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* position: relative; */
+    min-height: 198px;
+}
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    pointer-events: none;
+}
+.testimonial-card:hover{
+     border: 2px solid rgba(245, 56, 56, 1)
+
+}
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.testimonial-header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.testimonial-header .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+.testimonial-header .location {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+.testimonial-header .rating {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ff9900;
+}
+.testimonial-header .rating .star {
+    margin-left: 5px;
+}
+.testimonial-content {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+/**************************************************/
+
+
+
+
+.dots {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    margin: 0 5px;
+}
+.dot.active {
+    background-color: #ff3b30;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff3b30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button.active {
+    background-color: #ff3b30;
+    color: #fff;
+}
+.button i {
+    font-size: 16px;
+}
+.subscribe{
+    flex-direction: column;
+}
+.subscribe h1{
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    
+}
+.subscribe p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.footercontent p span{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footercontent p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+footer{
+    background: rgba(248, 248, 248, 1);
+
+}
+.end span{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(175, 181, 192, 1);
+}
+.end p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(175, 181, 192, 1);
+
+}
+
+.company{
+	display: block;
+	list-style-type: none;
+	position: relative;
+}
+.company li {
+
+		margin-bottom: 0.3rem;
+		text-decoration: none;
+}
+.company li	a {
+    color: rgba(79, 86, 101, 1);
+		text-decoration: none;
+}
+
+.company li	a:hover {
+				color: black;
+			}
+		
